@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import { MailIcon } from "@heroicons/react/solid";
+import Head from "next/head";
 
 const Home: NextPage = () => {
     return (
@@ -7,6 +8,21 @@ const Home: NextPage = () => {
             className="h-screen w-screen mx-auto flex justify-center items-center
                      bg-slate-400 dark:bg-slate-900 transition-all"
         >
+            <Head>
+                <meta
+                    name="theme-color"
+                    content="rgb(148, 163, 184)"
+                    media="(prefers-color-scheme: light)"
+                    key="light"
+                />
+                <meta
+                    name="theme-color"
+                    content="rgb(15, 23, 42)"
+                    media="(prefers-color-scheme: dark)"
+                    key="dark"
+                />
+                <title>Sameer M. Niaz</title>
+            </Head>
             <div
                 className="w-4/6 max-w-md m-0 flex flex-col justify-center items-center rounded-md
                           shadow-xl backdrop-brightness-150 transition-all hover:shadow-2xl
