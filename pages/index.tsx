@@ -9,6 +9,14 @@ const Home: NextPage = () => {
                      bg-slate-400 dark:bg-slate-900 transition-all"
         >
             <Head>
+                <meta property="og:title" content="Sameer M. Niaz" />
+                <meta property="og:description" content="Software Engineer" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://sameerniaz.com/" />
+                <meta
+                    property="og:image"
+                    content="https://sameerniaz.com/portrait.jpeg"
+                />
                 <meta
                     name="theme-color"
                     content="rgb(148, 163, 184)"
@@ -40,7 +48,7 @@ const Home: NextPage = () => {
                 <div className="w-full p-4 flex flex-col justify-center">
                     <div>
                         <h1 className="text-2xl font-bold">Sameer M. Niaz</h1>
-                        <h2 className="text-lg">Software Developer</h2>
+                        <h2 className="text-lg">Software Engineer</h2>
                     </div>
                     <div className="mt-1 flex flex-row">
                         <a href="mailto:sam@sameerniaz.com">
