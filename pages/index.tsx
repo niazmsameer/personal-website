@@ -48,7 +48,7 @@ const Home: NextPage = () => {
                         </a>
                         <a
                             className="opacity-70 hover:opacity-100"
-                            href="github.com/niazmsameer"
+                            href="https://github.com/niazmsameer"
                         >
                             GitHub
                         </a>
